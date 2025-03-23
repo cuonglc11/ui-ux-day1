@@ -10,7 +10,6 @@ $(document).ready(function() {
         },
         success: function(response) {
             const data = response.results.slice(0,5);
-            console.log(data);
             data.forEach(item => {
                 html += `
                   <div class="item-movie">

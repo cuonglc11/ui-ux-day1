@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+body {
+    background-color:  #D8D8D8;
+}
 .banner {
     background-image: url(../img/anhbia_1.jpg);
     background-size: cover;
@@ -20,6 +22,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 67px;
+    background: white;
+    padding: 18px;
+    border-radius: 13px;
 }
 .item-movie img {
         width: 100%;
